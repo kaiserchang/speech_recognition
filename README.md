@@ -19,7 +19,6 @@
 
 '''
 pip install speechrecognition pyaudio
-'''
 
 # macOS 安裝注意事項
 
@@ -27,7 +26,6 @@ pip install speechrecognition pyaudio
 
 '''
 brew install portaudio
-'''
 
 # 使用方法
 
@@ -37,7 +35,6 @@ brew install portaudio
 
 '''
 python sr_v1c.py
-'''
 
 程式會開始監聽麥克風並即時輸出辨識結果。
 
