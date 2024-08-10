@@ -18,10 +18,9 @@
 
 你可以使用以下命令來安裝這些模組：
 
-
 ```bash
 pip install speechrecognition pyaudio pyttsx3
-
+```
 
 ## macOS 安裝注意事項
 
@@ -29,7 +28,7 @@ pip install speechrecognition pyaudio pyttsx3
 
 ```bash
 brew install portaudio
-
+```
 
 ## 使用方法
 
@@ -39,6 +38,7 @@ brew install portaudio
 
 ```bash
 python sr_v1c.py
+```
 
 程式會開始監聽麥克風並即時輸出辨識結果。
 
