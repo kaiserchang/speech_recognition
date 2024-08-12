@@ -44,7 +44,7 @@ brew install portaudio
 在終端機中執行程式：
 
 ```bash
-python sr_v1c.py
+python sr_v4c.py
 ```
 
 程式會立即監聽麥克風並在終端機即時輸出辨識結果。
