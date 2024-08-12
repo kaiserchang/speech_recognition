@@ -17,12 +17,12 @@
 
 - `speechrecognition`
 - `pyaudio`
-- `pyttsx3`
+- `googletrans`
 
 你可以使用以下命令來安裝這些模組：
 
 ```bash
-pip install speechrecognition pyaudio pyttsx3
+pip install speechrecognition pyaudio googletrans
 ```
 或是直接安裝 requirements
 
