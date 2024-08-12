@@ -18,11 +18,14 @@
 - `speechrecognition`
 - `pyaudio`
 - `googletrans`
+- `threading`
+- `queue`
+- `time`
 
 你可以使用以下命令來安裝這些模組：
 
 ```bash
-pip install speechrecognition pyaudio googletrans
+pip install speechrecognition pyaudio googletrans threading queue time
 ```
 或是直接安裝 requirements
 
