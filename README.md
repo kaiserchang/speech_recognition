@@ -43,6 +43,12 @@ pip install -r requirements.txt
 brew install portaudio
 ```
 
+另外也可能需要另外安裝
+
+```bash
+pip install setuptools
+```
+
 ## 使用方法
 
 確保麥克風已正確連接並正常工作。
