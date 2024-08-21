@@ -11,8 +11,6 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QTe
 from PyQt6.QtCore import QTimer, pyqtSignal, QObject
 import pyqtgraph as pg
 
-python
-
 
 # 設置日誌
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
