@@ -34,7 +34,7 @@
 pip install speechrecognition pyaudio googletrans threading queue time PyQt6 numpy pyqtgraph
 ```
 
-或直你也可以選擇直接安裝 requirements
+或者你也可以選擇直接安裝 requirements
 ```bash
 pip install -r requirements.txt
 ```
