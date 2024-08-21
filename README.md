@@ -1,10 +1,10 @@
 ## 語音即時翻譯小程式
 
 這是一個預備用於線上會議即時翻譯的先期測試小程式，旨在測試如何使用 `speech_recognition` 模組來實現語音辨識功能。本程式利用 Google 語音辨識 API（免費）來將語音轉換為文字，並在說話停頓後輸出辨識與翻譯結果。
-
+## 終端機版（sr_v4c.py）
 <img src ="https://kaiserchang.github.io/img/v4c_demo2.jpg" width =80%>
 
-## 追加視窗版
+## 追加視窗版（sr_v5c_desktop_ui.py）
 <img src = "https://kaiserchang.github.io/img/sr_v5c_desktop_ui.png" width = 70%>
 
 ## 功能
