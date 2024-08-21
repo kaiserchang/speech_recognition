@@ -4,7 +4,7 @@
 
 ![圖片描述](https://kaiserchang.github.io/img/v4c_demo2.jpg)
 
-
+追加視窗版
 ## 功能
 
 - 持續監聽麥克風的語音。
@@ -28,10 +28,13 @@
 pip install speechrecognition pyaudio googletrans threading queue time
 ```
 或是直接安裝 requirements
+v5 視窗版尤其建議直接安裝 requirements.txt
+會追加安裝 PyQt6 numpy 等等...
 
 ```bash
 pip install -r requirements.txt
 ```
+
 ## macOS 安裝注意事項
 
 在 macOS 系統上，你可能需要安裝一些前置元件。可以使用 port 或 brew 來安裝必要的依賴：
