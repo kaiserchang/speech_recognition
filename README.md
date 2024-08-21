@@ -2,9 +2,11 @@
 
 這是一個預備用於線上會議即時翻譯的先期測試小程式，旨在測試如何使用 `speech_recognition` 模組來實現語音辨識功能。本程式利用 Google 語音辨識 API（免費）來將語音轉換為文字，並在說話停頓後輸出辨識與翻譯結果。
 
-![圖片描述](https://kaiserchang.github.io/img/v4c_demo2.jpg)
+<img src ="https://kaiserchang.github.io/img/v4c_demo2.jpg" width =80%>
 
-追加視窗版
+## 追加視窗版
+<img src = "https://kaiserchang.github.io/img/sr_v5c_desktop_ui.png" width = 70%>
+
 ## 功能
 
 - 持續監聽麥克風的語音。
@@ -13,7 +15,7 @@
 
 ## 安裝
 
-在使用本程式之前，請確保已安裝以下 Python 模組：
+在使用本程式之前（終端機版），請確保已安裝以下 Python 模組：
 
 - `speechrecognition`
 - `pyaudio`
@@ -22,15 +24,17 @@
 - `queue`
 - `time`
 
-你可以使用以下命令來安裝這些模組：
+視窗版部分建議直接安裝需追加安裝這些模組：
+- `PyQt6` 
+- `numpy` 
+
+可以使用以下命令來安裝這些模組：
 
 ```bash
-pip install speechrecognition pyaudio googletrans threading queue time
+pip install speechrecognition pyaudio googletrans threading queue time PyQt6 numpy pyqtgraph
 ```
-或是直接安裝 requirements
-v5 視窗版尤其建議直接安裝 requirements.txt
-會追加安裝 PyQt6 numpy 等等...
 
+或直你也可以選擇直接安裝 requirements
 ```bash
 pip install -r requirements.txt
 ```
