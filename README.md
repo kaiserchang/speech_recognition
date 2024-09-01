@@ -50,7 +50,7 @@ brew install portaudio
 另外也可能需要另外安裝
 
 ```bash
-pip install setuptools
+brew install python-setuptools
 ```
 
 ## 使用方法
